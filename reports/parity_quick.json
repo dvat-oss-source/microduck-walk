@@ -1,0 +1,36 @@
+[
+ {
+  "label": "train-dist limiter=on",
+  "num_envs": 512,
+  "seconds": 20.0,
+  "current_limit": true,
+  "fixed_command": null,
+  "lin_err_mean": 0.1706398360546156,
+  "lin_err_moving": 0.212448307248699,
+  "yaw_err_mean": 0.37923269730322856,
+  "yaw_err_moving": 0.45388050636107824,
+  "falls_per_min": 0.234375,
+  "falls": 40,
+  "env_minutes": 170.66666666666666,
+  "wall_s": 56.7919499874115,
+  "policy_s": 4.67724871635437,
+  "env_steps_per_s": 9015.362214424578
+ },
+ {
+  "label": "train-dist limiter=off",
+  "num_envs": 512,
+  "seconds": 20.0,
+  "current_limit": false,
+  "fixed_command": null,
+  "lin_err_mean": 0.17065178411069828,
+  "lin_err_moving": 0.21238609198137917,
+  "yaw_err_mean": 0.37916663209159474,
+  "yaw_err_moving": 0.4538059193476214,
+  "falls_per_min": 0.17578125,
+  "falls": 30,
+  "env_minutes": 170.66666666666666,
+  "wall_s": 56.52420687675476,
+  "policy_s": 4.680742979049683,
+  "env_steps_per_s": 9058.066062145082
+ }
+]

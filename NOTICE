@@ -1,0 +1,15 @@
+This repository builds on, and does not redistribute, the following:
+
+- pollen-robotics/microduck_rl (Apache-2.0): robot MJCF, task definitions, reward/DR configuration,
+  infer_policy.py used by demo/. The robot's STL meshes are CC BY-NC-SA 4.0 (Pollen Robotics) and
+  are fetched by scripts/fetch_upstream.sh, never committed here.
+  https://github.com/pollen-robotics/microduck_rl
+- Rhoban/bam (actuator model, fetched at 62bd8ce).
+- mjlab 1.3.0 (Apache-2.0). duckmac/vendor/terrains is copied from mjlab's terrain generator,
+  see duckmac/vendor/LICENSE.
+- rsl-rl-lib 5.0.1 (PPO implementation).
+- Pollen's alpha_walking.onnx / alpha_stand.onnx from Hugging Face pollen-robotics/microduck-policies
+  (used as the parity reference and as the get-up policy in demo/).
+
+demo/scene_ramp_steps_demo.xml, mjlab_tasks/, duckmac/ (except vendor/), tools/, tests/ and
+policies/walk_flat_10k.onnx are original to this repository.

@@ -1,0 +1,17 @@
+#!/bin/bash
+# Slurm job used for policies/walk_flat_10k.onnx (account/partition/node lines removed).
+#SBATCH -J md_10k
+#SBATCH --nodes=1 --ntasks=1
+#SBATCH --gres=gpu:4                # 4x RTX 2080 Ti
+#SBATCH --cpus-per-task=32 --mem=120G --time=2-00:00:00
+set -euo pipefail
+# Pollen microduck_rl @ bae39f5 (develop), `uv sync` done in that checkout
+cd "${MICRODUCK_RL:?path to microduck_rl checkout}"
+source .venv/bin/activate
+export WANDB_MODE=offline CUDA_DEVICE_ORDER=PCI_BUS_ID
+uv run train "${TASK:-Mjlab-Velocity-Flat-MicroDuck}" \
+  --gpu-ids all \
+  --env.scene.num-envs "${NENVS:-4096}" \
+  --agent.max-iterations "${ITERS:-10000}" \
+  --agent.run-name "${RUN_NAME:-atlantis_10k}" \
+  --agent.logger tensorboard

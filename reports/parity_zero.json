@@ -1,0 +1,19 @@
+[
+ {
+  "label": "train-dist limiter=on",
+  "num_envs": 512,
+  "seconds": 20.0,
+  "current_limit": true,
+  "fixed_command": null,
+  "lin_err_mean": 0.2129887239226057,
+  "lin_err_moving": 0.25063022833816895,
+  "yaw_err_mean": 0.38599144104447536,
+  "yaw_err_moving": 0.47300083406632104,
+  "falls_per_min": 37.693359375,
+  "falls": 6433,
+  "env_minutes": 170.66666666666666,
+  "wall_s": 57.899354219436646,
+  "policy_s": 0.003057718276977539,
+  "env_steps_per_s": 8842.931098325153
+ }
+]

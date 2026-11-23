@@ -1,0 +1,185 @@
+{
+ "pollen_alpha_walking": [
+  {
+   "label": "train-dist",
+   "num_envs": 512,
+   "seconds": 20.0,
+   "current_limit": true,
+   "fixed_command": null,
+   "lin_err_mean": 0.1706398360546156,
+   "lin_err_moving": 0.212448307248699,
+   "yaw_err_mean": 0.37923269730322856,
+   "yaw_err_moving": 0.45388050636107824,
+   "falls_per_min": 0.234375,
+   "falls": 40,
+   "env_minutes": 170.66666666666666,
+   "wall_s": 60.303420066833496,
+   "policy_s": 4.716129779815674,
+   "env_steps_per_s": 8490.397384303527
+  },
+  {
+   "label": "probe (0.3, 0, 0)",
+   "num_envs": 512,
+   "seconds": 15.0,
+   "current_limit": true,
+   "fixed_command": [
+    0.3,
+    0,
+    0
+   ],
+   "lin_err_mean": 0.22488252689570204,
+   "lin_err_moving": 0.22488252689570204,
+   "yaw_err_mean": 0.4392787332345573,
+   "yaw_err_moving": 0.4392787332345573,
+   "falls_per_min": 0.421875,
+   "falls": 54,
+   "env_minutes": 128.0,
+   "wall_s": 47.741836071014404,
+   "policy_s": 4.002039432525635,
+   "env_steps_per_s": 9115.694657253114
+  },
+  {
+   "label": "probe (0, 0, 0.8)",
+   "num_envs": 512,
+   "seconds": 15.0,
+   "current_limit": true,
+   "fixed_command": [
+    0,
+    0,
+    0.8
+   ],
+   "lin_err_mean": 0.1533341267683853,
+   "lin_err_moving": 0.1533341267683853,
+   "yaw_err_mean": 0.4729896279764474,
+   "yaw_err_moving": 0.4729896279764474,
+   "falls_per_min": 0.296875,
+   "falls": 38,
+   "env_minutes": 128.0,
+   "wall_s": 47.07000398635864,
+   "policy_s": 3.960561990737915,
+   "env_steps_per_s": 9245.803338493986
+  }
+ ],
+ "atlantis_10k": [
+  {
+   "label": "train-dist",
+   "num_envs": 512,
+   "seconds": 20.0,
+   "current_limit": true,
+   "fixed_command": null,
+   "lin_err_mean": 0.16522521590205366,
+   "lin_err_moving": 0.2070369817803795,
+   "yaw_err_mean": 0.4106470866276107,
+   "yaw_err_moving": 0.4928976580287182,
+   "falls_per_min": 0.3515625,
+   "falls": 60,
+   "env_minutes": 170.66666666666666,
+   "wall_s": 57.39589214324951,
+   "policy_s": 4.633422374725342,
+   "env_steps_per_s": 8920.499026692414
+  },
+  {
+   "label": "probe (0.3, 0, 0)",
+   "num_envs": 512,
+   "seconds": 15.0,
+   "current_limit": true,
+   "fixed_command": [
+    0.3,
+    0,
+    0
+   ],
+   "lin_err_mean": 0.20232189673556458,
+   "lin_err_moving": 0.20232189673556458,
+   "yaw_err_mean": 0.5226649111267014,
+   "yaw_err_moving": 0.5226649111267014,
+   "falls_per_min": 0.6875,
+   "falls": 88,
+   "env_minutes": 128.0,
+   "wall_s": 46.47750782966614,
+   "policy_s": 3.9324488639831543,
+   "env_steps_per_s": 9363.669015880754
+  },
+  {
+   "label": "probe (0, 0, 0.8)",
+   "num_envs": 512,
+   "seconds": 15.0,
+   "current_limit": true,
+   "fixed_command": [
+    0,
+    0,
+    0.8
+   ],
+   "lin_err_mean": 0.1641642085066926,
+   "lin_err_moving": 0.1641642085066926,
+   "yaw_err_mean": 0.43210484571739183,
+   "yaw_err_moving": 0.43210484571739183,
+   "falls_per_min": 0.4375,
+   "falls": 56,
+   "env_minutes": 128.0,
+   "wall_s": 46.78416991233826,
+   "policy_s": 3.9192397594451904,
+   "env_steps_per_s": 9302.291796893162
+  }
+ ],
+ "mac_duckmac_1000": [
+  {
+   "label": "train-dist",
+   "num_envs": 512,
+   "seconds": 20.0,
+   "current_limit": true,
+   "fixed_command": null,
+   "lin_err_mean": 0.24082256588848386,
+   "lin_err_moving": 0.2540759476704472,
+   "yaw_err_mean": 0.7413015447236917,
+   "yaw_err_moving": 0.7635526019722393,
+   "falls_per_min": 1.634765625,
+   "falls": 279,
+   "env_minutes": 170.66666666666666,
+   "wall_s": 55.6542592048645,
+   "policy_s": 4.468343019485474,
+   "env_steps_per_s": 9199.655288112222
+  },
+  {
+   "label": "probe (0.3, 0, 0)",
+   "num_envs": 512,
+   "seconds": 15.0,
+   "current_limit": true,
+   "fixed_command": [
+    0.3,
+    0,
+    0
+   ],
+   "lin_err_mean": 0.2562922740647737,
+   "lin_err_moving": 0.2562922740647737,
+   "yaw_err_mean": 0.7291222830910422,
+   "yaw_err_moving": 0.7291222830910422,
+   "falls_per_min": 1.8046875,
+   "falls": 231,
+   "env_minutes": 128.0,
+   "wall_s": 46.461503982543945,
+   "policy_s": 3.7921040058135986,
+   "env_steps_per_s": 9366.894368368037
+  },
+  {
+   "label": "probe (0, 0, 0.8)",
+   "num_envs": 512,
+   "seconds": 15.0,
+   "current_limit": true,
+   "fixed_command": [
+    0,
+    0,
+    0.8
+   ],
+   "lin_err_mean": 0.19411355082616208,
+   "lin_err_moving": 0.19411355082616208,
+   "yaw_err_mean": 0.7848603960090679,
+   "yaw_err_moving": 0.7848603960090679,
+   "falls_per_min": 1.3515625,
+   "falls": 173,
+   "env_minutes": 128.0,
+   "wall_s": 45.753857135772705,
+   "policy_s": 3.767786741256714,
+   "env_steps_per_s": 9511.766378702494
+  }
+ ]
+}

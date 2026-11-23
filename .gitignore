@@ -1,0 +1,9 @@
+upstream/
+runs/
+.venv/
+__pycache__/
+*.so
+*.pt
+*.egg-info/
+.DS_Store
+MUJOCO_LOG.TXT
